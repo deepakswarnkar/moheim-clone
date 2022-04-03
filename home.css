@@ -208,13 +208,20 @@ body {
     display: flex;
 }
 .arrow-big {
-    width: 7vw;
+    width: 11vw;
     margin-left: auto;
 }
 .About-bottom {
     font-family: poppins, sans-serif;
     font-size: 1.3vw;
     font-weight: 400;
+}
+.Product-22 {
+        font-size: 1vw;
+        position: absolute;
+        bottom: 1vw;
+        left: 7vw;
+        font-family: poppins, sans-serif;
 }
 
 
@@ -302,6 +309,49 @@ body {
         margin-left: 6px;
         margin-top: 43px;
     }
+    .arrow {
+        width: 100vw;
+        height: 5vw;
+        top: 26px;
+    }
+    .about {
+        display: block;
+    }
+    .about-main {
+        font-size: 3.3vw;
+    }
+    .about-hrading {
+        font-size: 8.5vw;
+        margin-top: 0px;
+    }
+    .about-hrading-1 {
+        font-size: 5.5vw;
+    }
+    .about-hrading-2 {
+        padding-left: 0vw;
+        font-size: 5.5vw;
+    }
+    .about-hrading-3 {
+        padding-left: 0vw;
+        font-size: 5.5vw;
+    }
+    .text-about-sub {
+        width: 67vw;
+        font-size: 3.4vw;
+    }
+    .About-bottom {
+        font-size: 3.3vw;
+    }
+    .arrow-big {
+        width: 23vw;
+    }
+    .Product-22 {
+        font-size: 2.1vw;
+        position: absolute;
+        bottom: 2.5vw;
+        left: 17.8vw;
+    }
+    
 
 }
 /* For Tablet */
@@ -402,6 +452,12 @@ body {
     .arrow-big {
         width: 23vw;
     }
+    .Product-22 {
+        font-size: 2.1vw;
+        position: absolute;
+        bottom: 2.5vw;
+        left: 17.8vw;
+    }
 }
 
 /* For Laptop small screen  */
@@ -483,3 +539,90 @@ body {
         margin-right: 27px;
     }
 }
+
+body{
+    font-family:Arial, Helvetica;
+    font-size:12px;
+}
+
+
+
+.round {
+    position: absolute;
+    margin-top: 0.8vw;
+}
+
+#cta{
+    width:100%; cursor: pointer; position: absolute;
+}
+
+#cta .arrow{left: 30%;}
+.arrow {position: absolute; bottom: 0;  margin-left:0px; width: 8vw; height: 2vw; background-size: contain; top:15px;}
+.segunda{margin-left: 8px;} 
+.next {
+    background-image: url('./Assets/arrow.png');
+    background-repeat: no-repeat;
+}
+
+@keyframes bounceAlpha {
+  0% {opacity: 1; transform: translateX(0px) scale(1);}
+  25%{opacity: 0; transform:translateX(10px) scale(0.9);}
+  26%{opacity: 0; transform:translateX(-10px) scale(0.9);}
+  55% {opacity: 1; transform: translateX(0px) scale(1);}
+}
+
+.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.arrow.primera.bounceAlpha {
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+.round:hover .arrow{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+.round:hover .arrow.primera{
+    animation-name: bounceAlpha;
+    animation-duration:1.4s;
+    animation-delay:0.2s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
