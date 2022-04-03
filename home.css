@@ -1,0 +1,485 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #f1f2ed;
+}
+.cont-main {
+    padding-left: 47px;
+    padding-right: 47px;
+}
+.header {
+    display: flex;
+    height: 100px;
+    position: relative;
+    background: #f1f2ed;
+    position:  fixed;
+    width: 100%;
+    z-index: 100;
+        
+}
+.logo {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: 7px;
+    margin-top: 36px;
+    padding-left: 47px;
+}
+.nav-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav-item-text {
+    list-style: none;
+    margin-top: 36px;
+    display: flex;
+}
+.online-store {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #262923;
+    letter-spacing: 2px;
+    margin-top: 36px;
+    margin-right: 33px;
+    font-size: 1vw;
+    
+}
+.item-tex {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #262923;
+    letter-spacing: 2px;
+    MARGIN-LEFT: 40PX;
+    font-size: 1vw;
+}
+.nav-button {
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    padding-right: 47px;
+
+}
+.main-img {
+    position: relative;
+    top: 101px;
+
+}   
+
+.main-img-cont {
+    width: 24%;
+    margin-left: 813px;
+}
+.main-img-sub-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    font-size: 1.8vw;
+}
+.parallax-window {
+    min-height: 100vh;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 99px;
+    height: 100vh;
+
+
+}
+
+.brand-name {
+    width: 100%;
+    position: absolute;
+}
+.main-img-text {
+    font-family: Questrial, sans-serif;
+    font-size: 19vw;
+    font-weight: 400;
+    letter-spacing: 7px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 65px 0px 0px 0px;
+    position: relative;
+   
+}
+.main-img-sub-text {
+        position: absolute;
+        left: 58%;
+        margin-top: -25px;
+    
+}
+.main-img-subtext {
+    font-family: 'poppins', sans-serif;
+    font-size: 25px;
+    color: #fff;
+    font-size: 1.5vw;
+    display: block;   
+}
+.img-item-slide {
+    width: 450px;
+    height: 140px;  
+    position: relative;
+    left: 10%;
+    top: 62%;
+    display: flex;
+    align-items: center;
+}
+.count {
+    color: white;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.1vw;
+}
+
+.count-img {
+    width: 100px;
+    height: 100px;
+    margin-left: 31px;
+}
+.count-item-text-1 {
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-size: 0.7vw;
+}
+.count-item-text-2 {
+    font-family: 'poppins', sans-serif;
+    color: #fff;
+    font-size: 2.3vw;
+}
+.count-img {
+    width: 7vw;
+    height: 7vw;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+.cont-arrow {
+    color: white;
+    width: 35px;
+    margin-left: 6px;
+}
+.about {
+    margin-top: 23vw;
+    display: flex;
+    padding-right: 10.972vw;
+    padding-left: 10.972vw;
+}
+.about-main-box {
+    width: 17.083vw;
+}
+.about-main {
+    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    position: relative;
+}
+.about-hrading {
+    margin-top: -17px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 5vw;
+    font-family: poppins, sans-serif;
+}
+.about-hrading-1 {
+    font-weight: 400;
+    font-size: 3.5vw;   
+    font-family: poppins, sans-serif;
+}
+.about-hrading-2 {
+    font-weight: 400;
+    font-size: 3.5vw;
+    padding-left: 9vw;
+    font-family: poppins, sans-serif;
+}
+.about-hrading-3 {
+    font-weight: 400;
+    font-size: 3.5vw;
+    padding-left: 10.2vw;
+    display: block;
+    font-family: poppins, sans-serif;
+}
+.about-sub-text {
+   padding-left: 10.4vw;    
+}
+.text-about-sub {
+    width: 40vw;
+    margin-top: 5vw;
+    font-family: poppins, sans-serif;
+    color: #323232d1;
+    font-size: 1.2vw;
+    line-height: 1.7;
+}
+.about-button {
+    display: flex;
+}
+.arrow-big {
+    width: 7vw;
+    margin-left: auto;
+}
+.About-bottom {
+    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+
+
+.fotter {
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+/* Media Query */
+
+
+/* For Mobile */
+@media only screen and (max-width: 480px) {
+    .header {
+        width: 100%;
+        height: 63px;
+    }
+    .main-img {
+        top: 63px;
+    }
+    .cont-main {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item-text {
+        display: none;
+    }
+    .logo {
+        padding-left: 0px;
+        padding-left: 33px;
+        font-size: 17px;
+        margin-top: 24px;
+    }
+    .nav-button {
+        padding-right: 33px;
+        margin-top: 20px;
+        width: 25px;
+        height: 25px;
+    }
+    .online-store {
+        display: none;
+        
+    }
+    .main-img-text {
+        margin-top: 44px;
+    }
+    .main-img-sub-text {
+        margin-top: -4px;
+        left: 24%;
+    }
+    .main-img-subtext {
+        font-size: 3.5vw;
+    }
+    .count {
+        display: none;
+    }
+    .count-img {
+        width: 15vw;
+        height: 15vw;
+        margin-left: 0;
+        margin-right: 31px;
+    }
+    .img-item-slide {
+        width: 250px;
+    }
+    .img-item-slide {
+        width: 80vw;
+        left: 12%;
+    }
+    .count-item-text-1 {
+        font-size: 3vw;
+    }
+    .count-item-text-2 {
+        font-size: 3.5vw;
+    }
+    .cont-arrow {
+        color: white;
+        width: 21px;
+        margin-left: 6px;
+        margin-top: 43px;
+    }
+
+}
+/* For Tablet */
+@media only screen and (min-width: 481px) and (max-width: 767px)  {
+    .header {
+        width: 100%;
+        height: 63px;
+    }
+    .main-img {
+        top: 63px;
+    }
+    .cont-main {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .nav-item-text {
+        display: none;
+    }
+    .logo {
+        padding-left: 0px;
+        padding-left: 33px;
+        font-size: 17px;
+        margin-top: 24px;
+    }
+    .nav-button {
+        padding-right: 33px;
+        margin-top: 20px;
+        width: 25px;
+        height: 25px;
+    }
+    .online-store {
+        display: none;
+    }
+    .main-img-sub-text {
+        margin-top: -17px;
+    }
+    .main-img-sub-text {
+        margin-top: -4px;
+        left: 25%;
+      
+    }
+    .main-img-subtext {
+        font-size: 3.5vw;
+    }
+    .count {
+        display: none;
+    }
+    .count-img {
+        width: 15vw;
+        height: 15vw;
+        margin-left: 0;
+        margin-right: 31px;
+    }
+    .img-item-slide {
+        width: 67vw;
+        left: 12%;
+    }
+    .count-item-text-1 {
+        font-size: 3vw;
+    }
+    .count-item-text-2 {
+        font-size: 3.5vw;
+    }
+    .cont-arrow {
+        color: white;
+        width: 27px;
+        margin-left: 6px;
+        margin-top: 43px;
+    }
+    .about {
+        display: block;
+    }
+    .about-main {
+        font-size: 3.3vw;
+    }
+    .about-hrading {
+        font-size: 8.5vw;
+        margin-top: 0px;
+    }
+    .about-hrading-1 {
+        font-size: 5.5vw;
+    }
+    .about-hrading-2 {
+        padding-left: 0vw;
+        font-size: 5.5vw;
+    }
+    .about-hrading-3 {
+        padding-left: 0vw;
+        font-size: 5.5vw;
+    }
+    .text-about-sub {
+        width: 67vw;
+        font-size: 3.4vw;
+    }
+    .About-bottom {
+        font-size: 3.3vw;
+    }
+    .arrow-big {
+        width: 23vw;
+    }
+}
+
+/* For Laptop small screen  */
+@media only screen and (min-width: 768px) and (max-width: 1024px)  {
+    .item-tex {
+        margin-left: 23px;
+        
+    }
+    .logo {
+        margin-top: 45px;
+    }
+    
+    .nav-item-text {
+         margin-top: 45px;
+    }
+    .online-store {
+        margin-top: 45px;
+    }
+    .nav-button {
+        width: 24px;
+        height: 24px;
+        margin-top: 39px;
+    }
+    .cont-main {
+        padding-left: 27px;
+        padding-right: 27px;
+    }
+    .logo {
+        padding-left: 27px;
+    }
+    .nav-button {
+        padding-right: 27px;
+    }
+    .main-img-sub-text {
+         margin-top: -21px;
+    }
+    .cont-arrow {
+        width: 17px;
+        margin-left: 3px;
+    }
+    .count-img {
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+}
+
+/* For Laptop mid screen  */
+@media only screen and (min-width: 1024px) and (max-width: 1320px)  {
+    .logo {
+        margin-top: 41px;
+    }
+    .nav-item-text {
+        margin-top: 41px;
+    }
+    .online-store {
+        margin-top: 41px;
+    }
+    .nav-button {
+        width: 23px;
+        height: 23px;
+        margin-top: 37px;
+    }
+    .cont-main {
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+    .logo {
+        padding-left: 37px;
+    }
+    .nav-button {
+        padding-right: 37px;
+    }
+    .cont-arrow {
+        width: 30px;
+        margin-left: 4px;
+    }
+    .count-img {
+        margin-left: 27px;
+        margin-right: 27px;
+    }
+}
