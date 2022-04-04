@@ -159,6 +159,12 @@ body {
     padding-right: 10.972vw;
     padding-left: 10.972vw;
 }
+.about-1 {
+    margin-top: 10vw;
+    display: flex;
+    padding-right: 10.972vw;
+    padding-left: 10.972vw;
+}
 .about-main-box {
     width: 17.083vw;
 }
@@ -223,8 +229,30 @@ body {
         left: 7vw;
         font-family: poppins, sans-serif;
 }
-
-
+.slide-image-top {
+    background-color: #7e807c;
+    width: 100%;
+    height: 86vh;
+    position: relative;
+    top: 22vw;
+    display: flex;
+}
+.text-aria-slide {
+    width: 38%;
+    height: 86vh;
+    
+}
+.slide-aria-image {
+    width: 62%;
+    height: 86vh;
+    display: flex;
+}
+.slide-auto-1 {
+    width: 41%;
+}
+.in-box-1 {
+    width: 50%;
+}
 
 .fotter {
     width: 100%;
@@ -619,8 +647,9 @@ body{
   .js-slider {
     position: relative;
     width: 80%;
-    height: 50vw;
+    height: 35vw;
     margin: 0 auto;
+    top: 5vw;
 }
   .js-slider_item {
     position: absolute;
@@ -652,17 +681,17 @@ body{
     position: relative;
     overflow: hidden;
 }
-  .c-img-w-full {
+.c-img-w-full {
     position: absolute;
-    top: 50%;
+    top: 36%;
     left: 50%;
     width: 100%;
     height: auto;
     transform: translate3d(-50%, -50%, 0);
-  }
+}
   .c-img-h-full {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     width: 100%;
     height: auto;
@@ -790,14 +819,70 @@ body{
     transform: translate3d(-50%, -50%, 0) scale(2.5);
   }
 
+  /* Marque Up */
 
+ 
+  
+  .marquee {
+    overflow: hidden;
+    height: 86vh;
+    width: 80%;
+}
+  .marquee-content {
+   
+    animation: scrolling 50s linear infinite;
+  }
+  
+  .marquee-item {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item img {
+    display: block;
+    width: 100%;
+    padding: 20px  20px;
+}
+  
+  @keyframes scrolling {
+    0% { transform: translateY(0vw); }
+    100% { transform: translatey(-200vw); }
+  }
+   
 
+ /* Marque Up */
 
-
-
-
-
-
+ 
+  
+ .marquee-1 {
+    overflow: hidden;
+    height: 86vh;
+    width: 80%;
+}
+  .marquee-content-1 {
+   
+    animation: ascrolling 50s linear infinite;
+  }
+  
+  .marquee-item-1 {
+    flex: 0 0 16vw;
+    margin: 0 1vw;
+  /*   flex: 0 0 20vw; */
+  /*   margin: 0 2vw; */
+  }
+  
+  .marquee-item-1 img {
+    display: block;
+    width: 100%;
+    padding: 20px  20px;
+}
+  
+  @keyframes ascrolling {
+    100% { transform: translateY(0vw); }
+    0% { transform: translatey(-200vw); }
+  }
 
 
 
