@@ -112,6 +112,9 @@ body {
     font-size: 1.5vw;
     display: block;   
 }
+.main-img-subtext:hover {
+    color: yellow;
+  }
 .img-item-slide {
     width: 450px;
     height: 140px;  
@@ -159,6 +162,12 @@ body {
     padding-right: 10.972vw;
     padding-left: 10.972vw;
 }
+.Product-17 {
+    margin-top: 12vw;
+
+    padding-right: 10.972vw;
+    padding-left: 10.972vw;
+}
 .about-1 {
     margin-top: 10vw;
     display: flex;
@@ -172,6 +181,13 @@ body {
     font-family: poppins, sans-serif;
     font-size: 1.3vw;
     font-weight: 400;
+    position: relative;
+}
+.about-main-17 {
+    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #fff;
     position: relative;
 }
 .about-hrading {
@@ -253,6 +269,21 @@ body {
 .in-box-1 {
     width: 45%;
 }
+.now-our-story {
+    font-family: poppins, sans-serif;
+    font-size: 2.9vw;
+    color: #fff;
+    line-height: 1.1;  
+}
+.now-button {
+    width: 100%;
+}
+.now-view-button {
+    width: 100%;
+    padding-left: 10.972vw;
+}
+
+
 
 .fotter {
     width: 100%;
@@ -580,7 +611,6 @@ body{
     position: absolute;
     margin-top: 0.8vw;
 }
-
 #cta{
     width:100%; cursor: pointer; position: absolute;
 }
