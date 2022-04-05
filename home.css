@@ -163,8 +163,7 @@ body {
     padding-left: 10.972vw;
 }
 .Product-17 {
-    margin-top: 12vw;
-
+    margin-top: 18vw;
     padding-right: 10.972vw;
     padding-left: 10.972vw;
 }
@@ -189,6 +188,7 @@ body {
     font-weight: 400;
     color: #fff;
     position: relative;
+    margin-bottom: 2vw;
 }
 .about-hrading {
     margin-top: -17px;
@@ -233,6 +233,10 @@ body {
     width: 11vw;
     margin-left: auto;
 }
+.arrow-big-1 {
+    width: 17vw;
+    margin-left: auto;
+}
 .About-bottom {
     font-family: poppins, sans-serif;
     font-size: 1.3vw;
@@ -245,10 +249,21 @@ body {
         left: 7vw;
         font-family: poppins, sans-serif;
 }
+.stories-17 {
+    font-size: 1vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 5.2vw;
+    font-family: poppins, sans-serif;font-size: 1vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 5.2vw;
+    font-family: poppins, sans-serif;
+}
 .slide-image-top {
     background-color: #7e807c;
     width: 100%;
-    height: 42.5vw;
+    height: 50vw;
     position: relative;
     top: 22vw;
     display: flex;
@@ -281,8 +296,14 @@ body {
 .now-view-button {
     width: 100%;
     padding-left: 10.972vw;
+    display: flex;
+    margin-top: 1.5vw;
 }
-
+.view-all {
+    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+}
 
 
 .fotter {
@@ -410,6 +431,52 @@ body {
         bottom: 2.5vw;
         left: 17.8vw;
     }
+    .slide-image-top {
+        height: 90vw;
+        display: block;
+        position: relative;
+    }
+    .marquee {
+        height: 90vw !important;
+    }
+    .marquee-1 {
+        height: 90vw !important;
+    }
+    .text-aria-slide {
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        background-color: #7e807cd4;
+        height: 90vw;
+    }
+    .slide-aria-image {
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+    }
+    .about-main-17 {
+        font-size: 3.3vw;
+    }
+    .stories-17 {
+        font-size: 2.1vw;
+        position: absolute;
+        bottom: 2.5vw;
+        left: 13.5vw;
+    }
+    .now-our-story {
+        font-size: 7.9vw;
+    }
+    .view-all {
+        font-size: 3.3vw;
+    }
+    .now-view-button {
+        padding-left: 21.5vw;
+        padding-right: 10.982vw;
+    }
+    .Product-17 {
+        margin-top: 36vw;
+    }
     
 
 }
@@ -517,7 +584,52 @@ body {
         bottom: 2.5vw;
         left: 17.8vw;
     }
-    
+    .slide-image-top {
+        height: 90vw;
+        display: block;
+        position: relative;
+    }
+    .marquee {
+        height: 90vw !important;
+    }
+    .marquee-1 {
+        height: 90vw !important;
+    }
+    .text-aria-slide {
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        background-color: #7e807cd4;
+        height: 90vw;
+    }
+    .slide-aria-image {
+        width: 100%;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+    }
+    .about-main-17 {
+        font-size: 3.3vw;
+    }
+    .stories-17 {
+        font-size: 2.1vw;
+        position: absolute;
+        bottom: 2.5vw;
+        left: 13.5vw;
+    }
+    .now-our-story {
+        font-size: 7.9vw;
+    }
+    .view-all {
+        font-size: 3.3vw;
+    }
+    .now-view-button {
+        padding-left: 21.5vw;
+        padding-right: 10.982vw;
+    }
+    .Product-17 {
+        margin-top: 36vw;
+    }
 }
 
 /* For Laptop small screen  */
@@ -855,7 +967,7 @@ body{
   
   .marquee {
     overflow: hidden;
-    height: 42.5vw;
+    height: 50vw;
     width: 100%;
 }
   .marquee-content {
@@ -888,7 +1000,7 @@ body{
   
  .marquee-1 {
     overflow: hidden;
-    height: 42.5vw;
+    height: 50vw;
     width: 100%;
 }
   .marquee-content-1 {
@@ -926,10 +1038,3 @@ body{
 
 
 
-
-
-
-
-
-
-  
