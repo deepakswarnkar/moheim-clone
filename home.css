@@ -232,18 +232,18 @@ body {
 .slide-image-top {
     background-color: #7e807c;
     width: 100%;
-    height: 86vh;
+    height: 42.5vw;
     position: relative;
     top: 22vw;
     display: flex;
 }
 .text-aria-slide {
-    width: 38%;
+    width: 36%;
     height: 86vh;
     
 }
 .slide-aria-image {
-    width: 62%;
+    width: 60%;
     height: 86vh;
     display: flex;
 }
@@ -251,7 +251,7 @@ body {
     width: 41%;
 }
 .in-box-1 {
-    width: 50%;
+    width: 45%;
 }
 
 .fotter {
@@ -825,8 +825,8 @@ body{
   
   .marquee {
     overflow: hidden;
-    height: 86vh;
-    width: 80%;
+    height: 42.5vw;
+    width: 100%;
 }
   .marquee-content {
    
@@ -843,7 +843,7 @@ body{
   .marquee-item img {
     display: block;
     width: 100%;
-    padding: 20px  20px;
+    padding: 1vw 0vw;
 }
   
   @keyframes scrolling {
@@ -852,14 +852,14 @@ body{
   }
    
 
- /* Marque Up */
+ /* Marque Down */
 
  
   
  .marquee-1 {
     overflow: hidden;
-    height: 86vh;
-    width: 80%;
+    height: 42.5vw;
+    width: 100%;
 }
   .marquee-content-1 {
    
@@ -876,7 +876,7 @@ body{
   .marquee-item-1 img {
     display: block;
     width: 100%;
-    padding: 20px  20px;
+    padding: 1vw 0vw;
 }
   
   @keyframes ascrolling {
