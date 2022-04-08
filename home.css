@@ -305,6 +305,37 @@ body {
     font-weight: 400;
 }
 
+.abou-designers {
+    padding-right: 10.972vw;
+    padding-left: 10.972vw;
+    position: relative;
+    top: 25vw;
+    margin-top: 15vw;
+}
+.designer-part {    
+    display: flex;
+}
+.designer-box {
+    width: 10vw;
+    margin-left: 18vw;
+}
+.about-design-box {
+    width: 50vw;
+    display: block;
+    padding-left: 11vw;
+}
+.designer-text {
+    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #000;
+}
+.about-designer {
+    font-family: poppins, sans-serif;
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 0;
+}
 
 .fotter {
     width: 100%;
@@ -477,9 +508,10 @@ body {
     .Product-17 {
         margin-top: 36vw;
     }
-    
-
 }
+
+
+
 /* For Tablet */
 @media only screen and (min-width: 481px) and (max-width: 767px)  {
     .header {
@@ -630,6 +662,26 @@ body {
     .Product-17 {
         margin-top: 36vw;
     }
+    .in-box-1 {
+        width: 50%;
+    }
+    .in-box {
+        width: 50%;
+    }
+    .marquee-item {
+        flex: 0 0 16vw;
+        margin: 0 0vw !important;
+    }
+    .marquee-item-1 {
+        flex: 0 0 16vw;
+        margin: 0 0vw !important;
+    }
+    .marquee-item img {
+        padding: 1vw 2vw 1vw 4vw !important;
+    }
+    .marquee-item-1 img {
+        padding: 1vw 4vw 1vw 2vw !important;
+    } 
 }
 
 /* For Laptop small screen  */
