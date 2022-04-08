@@ -83,6 +83,38 @@ body {
 
 
 }
+.parallax-window-img-1 {
+    min-height: 30vw;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 99px;
+    height: 30vw;
+   
+
+
+}
+.parallax-window-img-2 {
+    min-height: 48vw;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 99px;
+    height: 48vw;
+   
+
+
+}.parallax-window-img-3 {
+    min-height: 25vw;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 99px;
+    height: 25vw;
+   
+
+
+}
 
 .brand-name {
     width: 100%;
@@ -242,6 +274,11 @@ body {
     font-size: 1.3vw;
     font-weight: 400;
 }
+.view-all-2 {
+    font-family: poppins, sans-serif;
+    font-size: 0.9vw;
+    font-weight: 400;
+}
 .Product-22 {
         font-size: 1vw;
         position: absolute;
@@ -314,6 +351,7 @@ body {
 }
 .designer-part {    
     display: flex;
+    margin-top: 6vw;
 }
 .designer-box {
     width: 10vw;
@@ -332,9 +370,28 @@ body {
 }
 .about-designer {
     font-family: poppins, sans-serif;
-    font-size: 3vw;
-    font-weight: 500;
+    font-size: 2.8vw;
+    font-weight: 400;
     margin: 0;
+}
+.img-3-set {
+    width: 100%;
+    display: flex;
+    margin-top: 45vw;
+}
+.img-box-1 {
+    width: 25vw;
+    padding-left: 3vw;
+}
+.img-box-2 {
+    width: 48vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.img-box-3 {
+    width: 25vw;
+    padding-right: 3vw;
+    padding-top: 23vw;
 }
 
 .fotter {
