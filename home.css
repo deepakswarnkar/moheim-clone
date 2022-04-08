@@ -565,6 +565,32 @@ body {
     .Product-17 {
         margin-top: 36vw;
     }
+    .designer-part {
+        display: block;
+        margin-top: 6vw;
+    }
+    .designer-text {
+        font-size: 3.3vw;
+    }
+    .about-design-box {
+        padding-left: 0vw;
+    }
+    .about-designer {
+
+        font-size: 6vw;
+    }
+    .view-all-2 {
+        font-size: 3vw;
+    }
+    .designer-box {
+        margin-left: 0vw;
+    }
+    .img-box-1 {
+    padding-left: 0vw;
+    }
+    .img-box-3 {
+        padding-right: 0vw;
+    }
 }
 
 
@@ -739,6 +765,33 @@ body {
     .marquee-item-1 img {
         padding: 1vw 4vw 1vw 2vw !important;
     } 
+    .designer-box {
+        width: 10vw;
+        margin-left: 0vw;
+    }
+    .designer-part {
+        display: block;
+        margin-top: 6vw;
+    }
+    .designer-text {
+        font-size: 3.3vw;
+    }
+    .about-design-box {
+        padding-left: 0vw;
+    }
+    .about-designer {
+
+        font-size: 6vw;
+    }
+    .view-all-2 {
+        font-size: 3vw;
+    }
+    .img-box-1 {
+        padding-left: 0vw;
+    }
+    .img-box-3 {
+            padding-right: 0vw;
+    }
 }
 
 /* For Laptop small screen  */
