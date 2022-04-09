@@ -208,6 +208,9 @@ body {
 .about-main-box {
     width: 17.083vw;
 }
+.news-141-box {
+    width: 17.083vw;
+}
 .about-main {
     font-family: poppins, sans-serif;
     font-size: 1.3vw;
@@ -219,6 +222,14 @@ body {
     font-size: 1.3vw;
     font-weight: 400;
     color: #fff;
+    position: relative;
+    margin-bottom: 2vw;
+}
+.news-141 {
+    font-family: poppins, sans-serif;
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #000;
     position: relative;
     margin-bottom: 2vw;
 }
@@ -295,6 +306,17 @@ body {
     position: absolute;
     bottom: 1vw;
     left: 5.2vw;
+    font-family: poppins, sans-serif;
+}
+.news-141-text {
+    font-size: 1vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 5.2vw;
+    font-family: poppins, sans-serif;font-size: 1vw;
+    position: absolute;
+    bottom: 1vw;
+    left: 3.8vw;
     font-family: poppins, sans-serif;
 }
 .slide-image-top {
@@ -393,7 +415,41 @@ body {
     padding-right: 3vw;
     padding-top: 23vw;
 }
-
+.news {
+    padding-right: 10.972vw;
+    padding-left: 10.972vw; 
+    margin-top: 15vw;
+}
+.news-section-1 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 4vw;
+}
+.section-1-item {
+    width: 12vw;
+}
+.section-2-item {
+    width: 14vw;
+}
+.section-3-item {
+    width: 20vw;
+}
+.date-news{
+    font-family: poppins, sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+}
+.news-underline {
+    width: 100%;
+    display: block;
+}
+.underlinne {
+    width: 100%;
+    height: 0.1vw;
+    margin-top: 1vw;
+    background-color: #d9d9d9;
+}
 .fotter {
     width: 100%;
     height: 500px;
