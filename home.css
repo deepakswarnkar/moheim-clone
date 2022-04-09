@@ -433,9 +433,14 @@ body {
     width: 14vw;
 }
 .section-3-item {
-    width: 20vw;
+    width: 47vw;
 }
 .date-news{
+    font-family: poppins, sans-serif;
+    font-size: 1vw;
+    font-weight: 400;
+}
+.date-news-1{
     font-family: poppins, sans-serif;
     font-size: 1vw;
     font-weight: 400;
@@ -647,6 +652,31 @@ body {
     .img-box-3 {
         padding-right: 0vw;
     }
+    .news-141 {
+        font-size: 3.3vw;
+        }
+    .news-141-text {
+        font-size: 2.1vw;
+        position: absolute;
+        bottom: 2.5vw;
+        left: 9.5vw;
+    }
+    .date-news {
+        font-size: 2.7vw;
+    }
+    .section-1-item {
+        width: 20vw;
+    }
+    .section-3-item {
+        width: 79vw;
+    }
+    .news-section-1 {
+        margin-top: 9vw;
+    }
+    .date-news-1 {
+        font-size: 3.5vw;
+        margin-bottom: 7.5vw;
+    }
 }
 
 
@@ -847,6 +877,31 @@ body {
     }
     .img-box-3 {
             padding-right: 0vw;
+    }
+    .news-141 {
+        font-size: 3.3vw;
+        }
+    .news-141-text {
+        font-size: 2.1vw;
+        position: absolute;
+        bottom: 2.5vw;
+        left: 9.5vw;
+    }
+    .date-news {
+        font-size: 2.7vw;
+    }
+    .section-1-item {
+        width: 20vw;
+    }
+    .section-3-item {
+        width: 79vw;
+    }
+    .news-section-1 {
+        margin-top: 9vw;
+    }
+    .date-news-1 {
+        font-size: 3.5vw;
+        margin-bottom: 7.5vw;
     }
 }
 
