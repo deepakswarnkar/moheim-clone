@@ -572,7 +572,7 @@ body {
     top: 25vw;
 }
 .text-aria-slide-2 {
-    width: 113%;
+    width: 100%;
     height: 86vh;
 }
 .online-store-1 {
@@ -584,8 +584,12 @@ body {
 
 .online-store-margin {
     margin-top: 23vw;
-    padding-right: 10.972vw;
+    padding-right: 0;
     padding-left: 10.972vw;
+}
+.online-store-text {
+    padding-left: 21.5vw;
+    padding-right: 10.982vw;
 }
 
 .fotter {
@@ -816,8 +820,37 @@ body {
     .news-view-all {
         font-size: 3.3vw;
     }
+    
+    .places-with-moheim {
+        font-size: 6vw;
+    }
+    .case {
+        position: relative;
+    }
+    .case-box-1 {
+        width: 100%;
+    }
+    .case-box-2 {
+        position: absolute;
+        top: 20vw;
+        left: 14vw;
+    }   
+    .places-with {
+        width: 62vw;
+        margin-top: 79vw;
+    }
+    .case-img {
+        width: 53vw;
+        height: 53vw;
+    }
+    .main-buy-box {
+        width: 100%;
+        display: flex;
+        margin-top: 20vw;
+        
+    }
+    
 }
-
 
 
 /* For Tablet */
@@ -1047,6 +1080,67 @@ body {
     }
     .news-view-all {
         font-size: 3.3vw;
+    }
+    .places-with-moheim {
+        font-size: 6vw;
+    }
+    .case {
+        position: relative;
+    }
+    .case-box-1 {
+        width: 100%;
+    }
+    .case-box-2 {
+        position: absolute;
+        top: 20vw;
+        left: 14vw;
+    }   
+    .places-with {
+        width: 62vw;
+        margin-top: 79vw;
+    }
+    .case-img {
+        width: 53vw;
+        height: 53vw;
+    }
+    .online-store-box {
+        width: 100%;
+    }
+    .online-store-box:hover {
+        background-color: #000;
+        width: 100%;
+        height: 60vw;
+    }
+    .about-main-box {
+        width: 30.083vw;
+    }
+    .now-our-story {
+        font-size: 6vw;
+    }
+    .online-store-1 {
+        font-size: 3.3vw;
+    }
+    .main-buy-img-box {
+        width: 100%;
+        height: 91vw;
+    }
+    .main-buy-box-img {
+        height: 91vw;
+    }
+    .main-buy-box {
+        width: 100%;
+        display: flex;
+        margin-top: 20vw;
+        flex-direction: column-reverse;
+    }
+    .slide-img-animation {
+        width: 17.5vw;
+        height: 36vw;
+        transform: rotate(25deg);
+        transform-origin: 15% 98.5%;
+    }
+    .online-store-text {
+        padding-left: 11.5vw;
     }
 }
 
